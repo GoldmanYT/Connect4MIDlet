@@ -171,7 +171,7 @@ public class Connect4 {
         }
         
         for (int row = 0; row < HEIGHT; row++) {
-            for (int col = 0; col < WIDTH - GOAL + 1; col++) {
+            for (int col = 0; col < WIDTH; col++) {
                 if (field[row][col] == EMPTY) {
                     state = GAME_ACTIVE;
                     return;
